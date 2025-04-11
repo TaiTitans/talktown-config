@@ -16,3 +16,16 @@ spring:
         config:
             enabled: true
             uri: http://localhost:8888
+            
+springdoc:
+    api-docs:
+        path: /v3/api-docs
+    swagger-ui:
+        path: /swagger-ui.html
+
+keycloak:
+    realm: talktown-realm
+    auth-server-url: http://localhost:8080
+    resource: user-service
+    public-client: true
+    bearer-only: true
