@@ -16,7 +16,7 @@ spring:
         config:
             enabled: true
             uri: http://localhost:8888
-            
+
 springdoc:
     api-docs:
         path: /v3/api-docs
